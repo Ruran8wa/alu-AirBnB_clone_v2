@@ -1,4 +1,6 @@
-ass for sqlAlchemy """
+
+#!/usr/bin/python3
+""" new class for sqlAlchemy """
 from os import getenv
 from sqlalchemy.orm import sessionmaker, scoped_session
 from sqlalchemy import (create_engine)
@@ -81,4 +83,3 @@ class DBStorage:
         """ calls remove()
         """
         self.__session.close()
-
